@@ -1,0 +1,85 @@
+// Thaumcraft 4.2.2.0 aspect data.
+// Includes all addon aspects (Forbidden Magic, Magic Bees, Gregtech,
+// Avaritia, Thaumic Boots, GTNH 2.1.3.0+) by default.
+var aspect_data = {
+	"base_aspects": [
+		"air",
+		"earth",
+		"fire",
+		"water",
+		"order",
+		"entropy"
+	],
+	"combinations": {
+		// Thaumcraft 4.2.2.0
+		"eldritch": ["void", "darkness"],
+		"tree": ["air", "plant"],
+		"aura": ["magic", "air"],
+		"beast": ["motion", "life"],
+		"mind": ["fire", "soul"],
+		"flesh": ["death", "beast"],
+		"undead": ["motion", "death"],
+		"craft": ["man", "tool"],
+		"hunger": ["life", "void"],
+		"cold": ["fire", "entropy"],
+		"plant": ["life", "earth"],
+		"man": ["beast", "mind"],
+		"tool": ["man", "order"],
+		"travel": ["motion", "earth"],
+		"slime": ["life", "water"],
+		"greed": ["man", "hunger"],
+		"light": ["air", "fire"],
+		"mechanism": ["motion", "tool"],
+		"crop": ["plant", "man"],
+		"metal": ["earth", "crystal"],
+		"harvest": ["crop", "tool"],
+		"death": ["life", "entropy"],
+		"motion": ["air", "order"],
+		"cloth": ["tool", "beast"],
+		"mine": ["man", "earth"],
+		"exchange": ["entropy", "order"],
+		"energy": ["order", "fire"],
+		"magic": ["void", "energy"],
+		"heal": ["order", "life"],
+		"senses": ["air", "soul"],
+		"soul": ["life", "death"],
+		"weapon": ["tool", "fire"],
+		"weather": ["air", "water"],
+		"darkness": ["void", "light"],
+		"armor": ["tool", "earth"],
+		"void": ["air", "entropy"],
+		"poison": ["water", "entropy"],
+		"life": ["water", "earth"],
+		"trap": ["motion", "entropy"],
+		"taint": ["magic", "entropy"],
+		"crystal": ["earth", "order"],
+		"flight": ["air", "motion"],
+		// Forbidden Magic
+		"wrath": ["weapon", "fire"],
+		"nether": ["fire", "magic"],
+		"gluttony": ["hunger", "void"],
+		"envy": ["senses", "hunger"],
+		"sloth": ["trap", "soul"],
+		"pride": ["flight", "void"],
+		"lust": ["flesh", "hunger"],
+		// Magic Bees
+		"time": ["void", "order"],
+		// Gregtech
+		"electricity": ["energy", "mechanism"],
+		"magnetism": ["metal", "travel"],
+		"cheatiness": ["mine", "greed"],
+		"radioactivity": ["light", "energy"],
+		"stupidity": ["entropy", "mind"],
+		// Avaritia
+		"apocalypse": ["greed", "eldritch"],
+		// Thaumic Boots
+		"space": ["crystal", "metal"],
+		"boots": ["armor", "travel"],
+		// GTNH (2.1.3.0+)
+		"equality": ["mind", "order"],
+		"madness": ["mind", "taint"],
+		"beginning": ["void", "motion"],
+		"constellation": ["light", "beginning"],
+		"glory": ["man", "travel"]
+	}
+};
